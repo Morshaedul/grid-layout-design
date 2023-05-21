@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator design</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        display: grid;
+        grid-template-columns:  auto auto auto auto auto auto;
+
+    }
+    .container > div{
+        background-color: yellow;
+        border: 1px solid black;
+        padding: 5px;
+        
+    }
+    div{
+        height: 60px;
+    }
+    .div1{
+        grid-column: 1/7;
+    }
+    .div5{
+        grid-column: 1/7;
+    }
+    .div3{
+        grid-column: 2/6;
+    }
+    
+    
+</style>
+
+<body>
+    <div class="container">
+        <div class="div1">Header </div>
+        <div class="div2">Menu</div>
+        <div class="div3">Main</div>
+        <div class="div4"> Aside </div>
+        <div class="div5">Footer</div>
+    </div>
+  
+   
+
+</body>
+
+</html>

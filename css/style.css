@@ -1,0 +1,36 @@
+/* .container{
+    display: flex;
+    margin: 10px;
+    box-sizing: border-box;
+    width: 250px;
+
+}
+.card{
+    
+    border-radius: 14px;
+    margin: 20px;
+    background-color:;
+    width: 100%;
+    border: 1px solid gold;
+    border-width: 5px;
+
+}
+.card_photo{
+    height: 250px;
+
+}
+.card_body{
+    padding: 10px;
+
+}
+.card_title{
+    font-size: 27px;
+
+}
+.card_description{
+    text-align: justify;
+
+}
+.card:hover{
+    box-shadow: 5px 5px 35px rgb(92, 89, 89);
+} */
